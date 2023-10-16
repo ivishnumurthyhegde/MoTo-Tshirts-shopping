@@ -1,0 +1,19 @@
+.toolbar {
+    min-height: 56px; 
+    @media (min-width: 600px) {
+      min-height: 64px; 
+    }
+  }
+  
+  .content {
+  
+    flex-grow: 1;
+    background-color:  #f0f0f0;
+    padding: 20px;
+  }
+  
+  .root {
+    /* Styles for root */
+    flex-grow: 1;
+  }
+  

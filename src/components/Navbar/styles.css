@@ -1,0 +1,67 @@
+.appBar {
+  box-shadow: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.title {
+  flex-grow: 1;
+  align-items: center;
+  display: flex;
+  text-decoration:none;
+  color: black;
+}
+
+.image {
+  margin-right: 10px;
+  text-decoration:none;
+
+}
+
+.menuButton {
+  margin-right: 8px; /* Add the appropriate value */
+}
+
+.grow {
+  flex-grow: 1;
+}
+
+.search {
+  position: relative;
+  border-radius: 4px; /* Add the appropriate value */
+  background-color: #f2f2f2; /* Add the appropriate value */
+}
+
+.search:hover {
+  background-color: #e0e0e0; /* Add the appropriate value */
+}
+
+.searchIcon {
+  padding: 8px; /* Add the appropriate value */
+  height: 100%;
+  position: absolute;
+  pointer-events: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.inputRoot {
+  color: inherit;
+}
+
+.inputInput {
+  padding: 8px; /* Add the appropriate value */
+  padding-left: 20px; /* Add the appropriate value */
+  transition: width 0.3s ease; /* Add the appropriate value */
+  width: 100%;
+}
+
+@media (min-width: 600px) {
+  .search {
+    width: 200px; /* Add the appropriate value */
+  }
+
+  .inputInput {
+    width: 160px; /* Add the appropriate value */
+  }
+}
